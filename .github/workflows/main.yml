@@ -1,7 +1,8 @@
 name: Python 3.8
+run-name: ${{ github.actor }} is performing GitHub Actions
 on: [push]
 jobs:
-  build:
+  build-app:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
