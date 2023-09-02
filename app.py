@@ -1,6 +1,9 @@
-from flask import Flask
-from flask import render_template
+"""Module providing random choices."""
 from random import choices
+from flask import render_template
+from flask import Flask
+
+
 
 app = Flask(__name__)
 
